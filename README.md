@@ -97,3 +97,32 @@ func helloWorld():
 
 ```
 
+
+## tener en cuenta
+
+** godot 4.3 stable 
+
+** gradle se usa 8.1.0 
+
+plugins {
+    id("com.android.library") version "8.2.0" apply false
+}
+
+
+** sdk 34 
+
+android {
+    compileSdk = 34
+    targetSdk = 33 //  ???
+}
+
+## android studio console build 
+
+.\gradlew.bat build --stacktrace
+
+
+## gradle cache clean y build 
+.\gradlew.bat clean --refresh-dependencies
+.\gradlew.bat build
+
+
