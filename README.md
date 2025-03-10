@@ -106,7 +106,7 @@ func helloWorld():
 
 plugins {
 
-id("com.android.library") version "8.2.0" apply false
+ id("com.android.library") version "8.2.0" apply false
 
 }
 
@@ -115,9 +115,9 @@ id("com.android.library") version "8.2.0" apply false
 
 android {
 
-compileSdk = 34
+ compileSdk = 34
 
-targetSdk = 33 //  ???
+ targetSdk = 33 //  ???
 
 }
 
