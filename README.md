@@ -105,15 +105,20 @@ func helloWorld():
 ** gradle se usa 8.1.0 
 
 plugins {
+
 id("com.android.library") version "8.2.0" apply false
+
 }
 
 
 ** sdk 34 
 
 android {
+
 compileSdk = 34
+
 targetSdk = 33 //  ???
+
 }
 
 ## android studio console build 
